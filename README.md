@@ -1,20 +1,22 @@
 <div align="center">
 
-# Awesome Pets for Codex App
+# Nai Frog for Codex App
 
 **English · [简体中文](./README.zh-CN.md)**
 
-A growing collection of friendly companions for the [Codex App](https://openai.com/index/introducing-the-codex-app/).
+A ready-to-install Nai Frog custom pet with state-driven animations for the [Codex App](https://openai.com/index/introducing-the-codex-app/).
 
 </div>
 
 ## About
 
-Awesome Pets is a collection of custom pets for the Codex App. These companions are here to make coding, research, and everyday tasks feel a little more cheerful.
+This repository packages **Nai Frog** as a custom pet for the Codex App. The `naifrog` folder contains the pet metadata and a Codex v2 spritesheet, while the preview gallery documents how each task state appears in the App.
 
-## First to Arrive: Nai Frog
+As Codex moves between idle work, active tasks, input requests, review, failures, and directional movement, Nai Frog responds with a matching animation—including its signature belly laugh in the `jumping` slot.
 
-The first update introduces **Nai Frog**: a cheerful, round yellow companion with a cream-colored belly, bright green eyes, and a signature belly-holding laugh.
+## Meet Nai Frog
+
+**Nai Frog** is a cheerful, round yellow companion with a cream-colored belly and bright green eyes. It rests and blinks while idle, gestures while Codex is working, waits when input is needed, reacts to blocked tasks, moves in both directions, and celebrates with a belly-holding laugh.
 
 ### All Standard States
 

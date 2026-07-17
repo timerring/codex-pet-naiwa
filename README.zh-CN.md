@@ -1,20 +1,22 @@
 <div align="center">
 
-# Codex App 的 Awesome Pets
+# Codex App 奶蛙桌宠
 
 **[English](./README.md) · 简体中文**
 
-一群陪你一起使用 [Codex App](https://openai.com/index/introducing-the-codex-app/) 的可爱伙伴。
+一个可直接安装到 [Codex App](https://openai.com/index/introducing-the-codex-app/) 的奶蛙自定义桌宠，用动画回应不同任务状态。
 
 </div>
 
 ## 关于本项目
 
-Awesome Pets 收集了适用于 Codex App 的自定义宠物。它们会陪伴你的工作过程，让写代码、做研究和完成日常任务多一点轻松与乐趣。
+本仓库将 **奶蛙（Nai Frog）**打包为 Codex App 自定义桌宠。`naifrog` 目录包含桌宠元数据和 Codex v2 精灵表，README 中的预览则完整展示了各个任务状态在 App 中对应的动画效果。
 
-## 首位登场：奶蛙
+当 Codex 处于待机、执行任务、等待输入、完成待查看、失败阻塞或左右移动等状态时，奶蛙会播放相应动作；其中 `jumping` 槽位被定制成了它标志性的捧腹大笑。
 
-本项目的第一次更新带来了 **奶蛙（Nai Frog）**：一只开朗、圆润的黄色小伙伴，拥有奶油色肚皮、绿色大眼睛和标志性的捧腹大笑。
+## 认识奶蛙
+
+**奶蛙**是一只开朗、圆润的黄色小伙伴，拥有奶油色肚皮和绿色大眼睛。它会在待机时呼吸眨眼，在 Codex 工作时专注比划，在需要输入时耐心等待，在任务受阻时作出反应，还能左右移动，并用捧腹大笑庆祝进展。
 
 ### 全部标准状态
 
