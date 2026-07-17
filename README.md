@@ -4,7 +4,7 @@
 
 **简体中文 · [English](./README.en.md)**
 
-适用于 [Codex App](https://openai.com/index/introducing-the-codex-app/) 的奶蛙（Nai Frog / Naiwa Pet）自定义桌宠。
+一个为 Codex 打造的奶龙 / 奶蛙桌面宠物 Naifrog / Naiwa Codex pet
 
 </div>
 
