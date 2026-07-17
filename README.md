@@ -1,71 +1,71 @@
 <div align="center">
 
-# Nai Frog for Codex App
+# Codex App 奶蛙桌宠
 
-**English · [简体中文](./README.zh-CN.md)**
+**[English](./README.en.md) · 简体中文**
 
-A ready-to-install Nai Frog custom pet with state-driven animations for the [Codex App](https://openai.com/index/introducing-the-codex-app/).
+一个可直接安装到 [Codex App](https://openai.com/index/introducing-the-codex-app/) 的奶蛙自定义桌宠，用动画回应不同任务状态。
 
 </div>
 
-## About
+## 关于本项目
 
-This repository packages **Nai Frog** as a custom pet for the Codex App. The `naifrog` folder contains the pet metadata and a Codex v2 spritesheet, while the preview gallery documents how each task state appears in the App.
+本仓库将 **奶蛙（Nai Frog）**打包为 Codex App 自定义桌宠。`naifrog` 目录包含桌宠元数据和 Codex v2 精灵表，README 中的预览则完整展示了各个任务状态在 App 中对应的动画效果。
 
-As Codex moves between idle work, active tasks, input requests, review, failures, and directional movement, Nai Frog responds with a matching animation—including its signature belly laugh in the `jumping` slot.
+当 Codex 处于待机、执行任务、等待输入、完成待查看、失败阻塞或左右移动等状态时，奶蛙会播放相应动作；其中 `jumping` 槽位被定制成了它标志性的捧腹大笑。
 
-## Meet Nai Frog
+## 认识奶蛙
 
-**Nai Frog** is a cheerful, round yellow companion with a cream-colored belly and bright green eyes. It rests and blinks while idle, gestures while Codex is working, waits when input is needed, reacts to blocked tasks, moves in both directions, and celebrates with a belly-holding laugh.
+**奶蛙**是一只开朗、圆润的黄色小伙伴，拥有奶油色肚皮和绿色大眼睛。它会在待机时呼吸眨眼，在 Codex 工作时专注比划，在需要输入时耐心等待，在任务受阻时作出反应，还能左右移动，并用捧腹大笑庆祝进展。
 
-### All Standard States
+### 全部标准状态
 
 <table>
   <tr>
-    <td align="center"><strong>Idle</strong><br /><img src="./naifrog/previews/idle.png" width="160" alt="Nai Frog idle animation" /><br /><code>idle</code> · 6 frames</td>
-    <td align="center"><strong>Wave</strong><br /><img src="./naifrog/previews/waving.png" width="160" alt="Nai Frog waving animation" /><br /><code>waving</code> · 4 frames</td>
-    <td align="center"><strong>Belly Laugh</strong><br /><img src="./naifrog/previews/jumping.png" width="160" alt="Nai Frog belly-laugh animation in the jumping slot" /><br /><code>jumping</code> · 5 frames</td>
+    <td align="center"><strong>待机</strong><br /><img src="./naifrog/previews/idle.png" width="160" alt="奶蛙待机动画" /><br /><code>idle</code> · 6 帧</td>
+    <td align="center"><strong>招手</strong><br /><img src="./naifrog/previews/waving.png" width="160" alt="奶蛙招手动画" /><br /><code>waving</code> · 4 帧</td>
+    <td align="center"><strong>捧腹大笑</strong><br /><img src="./naifrog/previews/jumping.png" width="160" alt="奶蛙在 jumping 槽位中的捧腹大笑动画" /><br /><code>jumping</code> · 5 帧</td>
   </tr>
   <tr>
-    <td align="center"><strong>Move Left</strong><br /><img src="./naifrog/previews/running-left.png" width="160" alt="Nai Frog moving left" /><br /><code>running-left</code> · 8 frames</td>
-    <td align="center"><strong>Working</strong><br /><img src="./naifrog/previews/running.png" width="160" alt="Nai Frog working while a task is running" /><br /><code>running</code> · 6 frames</td>
-    <td align="center"><strong>Move Right</strong><br /><img src="./naifrog/previews/running-right.png" width="160" alt="Nai Frog moving right" /><br /><code>running-right</code> · 8 frames</td>
+    <td align="center"><strong>向左移动</strong><br /><img src="./naifrog/previews/running-left.png" width="160" alt="奶蛙向左移动" /><br /><code>running-left</code> · 8 帧</td>
+    <td align="center"><strong>执行任务</strong><br /><img src="./naifrog/previews/running.png" width="160" alt="奶蛙在任务运行时工作" /><br /><code>running</code> · 6 帧</td>
+    <td align="center"><strong>向右移动</strong><br /><img src="./naifrog/previews/running-right.png" width="160" alt="奶蛙向右移动" /><br /><code>running-right</code> · 8 帧</td>
   </tr>
   <tr>
-    <td align="center"><strong>Needs Input</strong><br /><img src="./naifrog/previews/waiting.png" width="160" alt="Nai Frog waiting for input" /><br /><code>waiting</code> · 6 frames</td>
-    <td align="center"><strong>Ready to Review</strong><br /><img src="./naifrog/previews/review.png" width="160" alt="Nai Frog reviewing completed work" /><br /><code>review</code> · 6 frames</td>
-    <td align="center"><strong>Blocked</strong><br /><img src="./naifrog/previews/failed.png" width="160" alt="Nai Frog reacting to a failed or blocked task" /><br /><code>failed</code> · 8 frames</td>
+    <td align="center"><strong>等待输入</strong><br /><img src="./naifrog/previews/waiting.png" width="160" alt="奶蛙等待用户输入" /><br /><code>waiting</code> · 6 帧</td>
+    <td align="center"><strong>完成待查看</strong><br /><img src="./naifrog/previews/review.png" width="160" alt="奶蛙查看已完成的工作" /><br /><code>review</code> · 6 帧</td>
+    <td align="center"><strong>失败或阻塞</strong><br /><img src="./naifrog/previews/failed.png" width="160" alt="奶蛙对任务失败或阻塞作出反应" /><br /><code>failed</code> · 8 帧</td>
   </tr>
 </table>
 
-The Codex `jumping` slot is fixed at five frames. For Nai Frog, its visuals have been customized into the signature belly laugh shown above; the slot name, frame count, and trigger behavior remain defined by Codex.
+Codex 的 `jumping` 槽位固定使用 5 帧。奶蛙把这个槽位的画面定制成了上面的标志性捧腹大笑；槽位名称、帧数和触发逻辑仍由 Codex 定义。
 
-### Look Directions
+### 注视方向
 
 <p align="center">
-  <img src="./naifrog/previews/look-directions.png" width="192" alt="Nai Frog looking in 16 clockwise directions" /><br />
-  <code>look directions</code> · 16 clockwise poses
+  <img src="./naifrog/previews/look-directions.png" width="192" alt="奶蛙按顺时针查看 16 个方向" /><br />
+  <code>look directions</code> · 16 个顺时针方向姿势
 </p>
 
-When no direction vector is active, the pet falls back to its neutral or idle pose.
+没有方向向量时，桌宠会回到 neutral 或 idle 姿势。
 
-### Included States
+### 包含的状态
 
-| State | Frames | What Nai Frog does |
+| 状态 | 帧数 | 奶蛙的表现 |
 | --- | ---: | --- |
-| `idle` | 6 | Rests quietly, breathes, and blinks. |
-| `running-right` | 8 | Moves toward the right. |
-| `running-left` | 8 | Moves toward the left. |
-| `waving` | 4 | Waves to greet you or get your attention. |
-| `jumping` | 5 | Performs the customized belly-laugh sequence. |
-| `failed` | 8 | Slumps in response to a blocked or failed task. |
-| `waiting` | 6 | Waits expectantly for approval or input. |
-| `running` | 6 | Thinks and gestures while a task is running. |
-| `review` | 6 | Inspects completed work that is ready to review. |
+| `idle` | 6 | 安静站立、呼吸和眨眼。 |
+| `running-right` | 8 | 向右移动。 |
+| `running-left` | 8 | 向左移动。 |
+| `waving` | 4 | 招手问候或吸引你的注意。 |
+| `jumping` | 5 | 播放定制后的捧腹大笑动作。 |
+| `failed` | 8 | 在任务失败或阻塞时逐渐低头、泄气。 |
+| `waiting` | 6 | 期待地等待你的批准或输入。 |
+| `running` | 6 | 在任务运行时专注思考并用手比划。 |
+| `review` | 6 | 查看已经完成、等待检查的工作。 |
 
-The v2 spritesheet also includes 16 clockwise look directions across its final two rows.
+v2 精灵表的最后两行还包含按顺时针排列的 16 个注视方向。
 
-### Package Layout
+### 目录结构
 
 ```text
 naifrog/
@@ -84,40 +84,40 @@ naifrog/
     └── waving.png
 ```
 
-- `pet.json`: pet metadata and spritesheet configuration
-- `spritesheet.webp`: the animated spritesheet for Nai Frog
-- `previews/`: animated README previews; these files are not required by the Codex App
+- `pet.json`：宠物信息及精灵图配置
+- `spritesheet.webp`：奶蛙的动画精灵图
+- `previews/`：README 使用的动画预览，Codex App 本身不依赖这些文件
 
-## Install in the Codex App
+## 安装到 Codex App
 
-### Option 1: Use the pet folder in Settings (recommended)
+### 方法一：通过设置中的宠物目录安装（推荐）
 
-1. Download or clone this repository:
+1. 下载或克隆本仓库：
 
    ```bash
    git clone https://github.com/timerring/codex-pet-naiwa.git
    ```
 
-2. Open the Codex App and go to **Settings → Pets → Custom pets**.
-3. Select **Open folder** to open the local custom-pet directory.
-4. Copy the repository's `naifrog` folder into that directory.
-5. Return to the Codex App and select **Refresh**.
-6. Select **Nai Frog**. If pets are currently hidden, select **Wake Pet**.
+2. 打开 Codex App，进入 **Settings → Pets → Custom pets**。
+3. 点击 **Open folder**，打开本地自定义宠物目录。
+4. 将仓库中的 `naifrog` 文件夹复制到该目录中。
+5. 返回 Codex App，点击 **Refresh**。
+6. 选择 **奶蛙（Nai Frog）**。如果宠物当前处于隐藏状态，请点击 **Wake Pet**。
 
-The final layout must be:
+最终目录结构必须是：
 
 ```text
-<Codex home>/pets/
+<Codex 主目录>/pets/
 └── naifrog/
     ├── pet.json
     └── spritesheet.webp
 ```
 
-Do not copy the entire `codex-pet-naiwa` repository as a nested folder under `pets`; the Codex App looks for `pet.json` directly inside each pet directory.
+不要把整个 `codex-pet-naiwa` 仓库作为嵌套文件夹复制到 `pets` 中；Codex App 会直接在每个宠物目录下查找 `pet.json`。
 
-### Option 2: Install from a terminal
+### 方法二：通过终端安装
 
-#### macOS or Linux
+#### macOS 或 Linux
 
 ```bash
 git clone https://github.com/timerring/codex-pet-naiwa.git
@@ -135,15 +135,15 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
-After copying the files, open **Settings → Pets** and select **Refresh**, then choose Nai Frog. Restart the Codex App if the pet does not appear after refreshing.
+复制完成后，请进入 **Settings → Pets**，点击 **Refresh** 并选择奶蛙。如果刷新后仍未出现，请重启 Codex App。
 
-By default, Codex home is `~/.codex` on macOS and Linux and `$HOME\.codex` on Windows. If `CODEX_HOME` is set, the App uses that location instead.
+默认情况下，macOS 和 Linux 的 Codex 主目录是 `~/.codex`，Windows 中是 `$HOME\.codex`。如果设置了 `CODEX_HOME`，App 将使用该位置。
 
-## Credits
+## Credits / 致谢
 
-- [Nitrogen216/awesome_pets](https://github.com/Nitrogen216/awesome_pets) — the original Awesome Pets repository and Nai Frog Codex pet implementation on which this project is based.
-- [LynnShaw/naiwa-pet](https://github.com/LynnShaw/naiwa-pet) — the source of the transparent belly-laugh frame sequence adapted for Nai Frog's `jumping` state.
+- [Nitrogen216/awesome_pets](https://github.com/Nitrogen216/awesome_pets) — 本项目所基于的原始 Awesome Pets 仓库及奶蛙 Codex 桌宠实现。
+- [LynnShaw/naiwa-pet](https://github.com/LynnShaw/naiwa-pet) — 奶蛙 `jumping` 状态中捧腹大笑透明动画帧序列的来源。
 
-## License
+## 许可证
 
-Original contributions in this repository are licensed under the [MIT License](LICENSE). Third-party materials identified in [Credits](#credits) are excluded and remain subject to their respective owners' rights.
+本仓库中的原创贡献采用 [MIT License](LICENSE)。[Credits / 致谢](#credits--致谢)中列明的第三方素材不包含在此授权范围内，其权利仍归各自权利人所有。
