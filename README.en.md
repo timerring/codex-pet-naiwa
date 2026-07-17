@@ -8,6 +8,12 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 </div>
 
+## Quick Install
+
+Send this instruction to Codex:
+
+> Install the Nai Frog pet from https://github.com/timerring/codex-pet-naiwa by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it in Codex.
+
 ## Animation Preview
 
 <table>
@@ -37,7 +43,7 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
   <code>look directions</code> · 16 directions
 </p>
 
-## Installation
+## Manual Installation
 
 1. Clone the repository:
 
