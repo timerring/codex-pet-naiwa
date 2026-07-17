@@ -142,8 +142,6 @@ By default, Codex home is `~/.codex` on macOS and Linux and `$HOME\.codex` on Wi
 - [Nitrogen216/awesome_pets](https://github.com/Nitrogen216/awesome_pets) — the original Awesome Pets repository and Nai Frog Codex pet implementation on which this project is based.
 - [LynnShaw/naiwa-pet](https://github.com/LynnShaw/naiwa-pet) — the source of the transparent belly-laugh frame sequence adapted for Nai Frog's `jumping` state.
 
-The `LynnShaw/naiwa-pet` repository currently does not include a license file. Review its terms or obtain permission before redistributing the adapted media.
-
 ## What's Next
 
 Nai Frog is only the first companion to arrive. More pets will join the collection in future updates—stay tuned!
