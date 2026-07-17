@@ -142,10 +142,6 @@ Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 - [Nitrogen216/awesome_pets](https://github.com/Nitrogen216/awesome_pets) — 本项目所基于的原始 Awesome Pets 仓库及奶蛙 Codex 桌宠实现。
 - [LynnShaw/naiwa-pet](https://github.com/LynnShaw/naiwa-pet) — 奶蛙 `jumping` 状态中捧腹大笑透明动画帧序列的来源。
 
-## 接下来
-
-奶蛙只是第一位登场的伙伴。未来还会有更多 pets 陆续加入，敬请期待！
-
 ## 许可证
 
-本仓库目前尚未添加许可证。在以后添加许可证之前，所有权利归仓库所有者保留。
+本仓库中的原创贡献采用 [MIT License](LICENSE)。[Credits / 致谢](#credits--致谢)中列明的第三方素材不包含在此授权范围内，其权利仍归各自权利人所有。
