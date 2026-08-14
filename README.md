@@ -110,7 +110,6 @@ naifrog/
 
 - [Nitrogen216/awesome_pets](https://github.com/Nitrogen216/awesome_pets)
 - [LynnShaw/naiwa-pet](https://github.com/LynnShaw/naiwa-pet)
-- [Linux Do](https://linux.do/)
 
 ## 许可证
 
