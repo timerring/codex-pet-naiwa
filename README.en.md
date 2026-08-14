@@ -41,7 +41,12 @@ Send this instruction to Codex:
   <code>look directions</code> · 16 directions
 </p>
 
-## Manual Installation
+## Desktop Installation and Activation
+
+> [!NOTE]
+> The ChatGPT desktop app installs custom pets from a local directory; it does not use the web **Upload pet** flow. Desktop and web pets are managed separately, so installing Nai Frog on desktop does not automatically sync it to ChatGPT web.
+
+### Install from Settings
 
 1. Clone the repository:
 
@@ -49,9 +54,13 @@ Send this instruction to Codex:
    git clone https://github.com/timerring/codex-pet-naiwa.git
    ```
 
-2. Open **Settings → Pets → Custom pets → Open folder** in the Codex App.
+2. Open **Settings → Pets → Custom pets → Open folder** in the ChatGPT desktop app.
 3. Copy the repository's `naifrog` folder into the opened directory.
-4. Return to the Codex App, select **Refresh**, then choose Nai Frog.
+4. Return to **Settings → Pets** and select **Refresh**.
+5. Find Nai Frog and select **Select**.
+6. Select **Wake Pet**, or run `/pet` from the command menu, to show Nai Frog on your desktop.
+
+The desktop app remembers your selection and the pet's position. Run `/pet` again, or select **Tuck Away Pet**, to hide it. See the [official OpenAI Pets documentation](https://learn.chatgpt.com/docs/pets) for complete behavior.
 
 ### Command Line
 
@@ -72,6 +81,12 @@ $petDir = Join-Path $codexHome "pets\naifrog"
 New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
+
+After running the command, return to the desktop app and complete **Refresh → Select → Wake Pet**.
+
+### About ChatGPT Web
+
+This repository's `spritesheet.webp` is a desktop v2 asset (`1536 × 2288`). ChatGPT web requires a separate transparent PNG or WebP at `1536 × 1872`, uploaded from **Settings → Personalization → Pet → Upload pet**, so the v2 spritesheet in this repository cannot be uploaded directly.
 
 ## Files
 

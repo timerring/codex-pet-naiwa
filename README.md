@@ -41,7 +41,12 @@
   <code>look directions</code> · 16 个方向
 </p>
 
-## 手动安装
+## 桌面端安装与启用
+
+> [!NOTE]
+> ChatGPT 桌面端使用本地自定义宠物目录，不提供 Web 端的 **Upload pet** 上传流程。桌面端与 Web 端的自定义宠物分开管理；安装到桌面端的奶蛙不会自动同步到 Web。
+
+### 通过设置页面安装
 
 1. 克隆仓库：
 
@@ -49,9 +54,13 @@
    git clone https://github.com/timerring/codex-pet-naiwa.git
    ```
 
-2. 打开 Codex App，进入 **Settings → Pets → Custom pets → Open folder**。
+2. 打开 ChatGPT 桌面端，进入 **Settings → Pets → Custom pets → Open folder**。
 3. 将仓库中的 `naifrog` 文件夹复制到打开的目录。
-4. 返回 Codex App，点击 **Refresh**，然后选择奶蛙。
+4. 返回 **Settings → Pets**，点击 **Refresh**。
+5. 找到奶蛙并点击 **Select**。
+6. 点击 **Wake Pet**，或在命令菜单中运行 `/pet`，让奶蛙显示在桌面上。
+
+桌面端会记住选择和宠物位置。再次运行 `/pet`，或选择 **Tuck Away Pet**，可以隐藏奶蛙。完整行为可参考 [OpenAI Pets 官方文档](https://learn.chatgpt.com/docs/pets)。
 
 ### 命令行安装
 
@@ -72,6 +81,12 @@ $petDir = Join-Path $codexHome "pets\naifrog"
 New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
+
+命令执行完成后，仍需回到桌面端完成 **Refresh → Select → Wake Pet**。
+
+### 关于 Web 端
+
+本仓库的 `spritesheet.webp` 是桌面端 v2 素材（`1536 × 2288`）。Web 端需要在 **Settings → Personalization → Pet → Upload pet** 中单独上传 `1536 × 1872` 的透明 PNG 或 WebP，因此不能直接使用本仓库的 v2 精灵表上传。
 
 ## 文件结构
 
