@@ -96,12 +96,15 @@ naifrog/
 ├── spritesheet.webp
 ├── web-spritesheet.png
 └── previews/
+    ├── chatgpt-web-pet.png
+    └── …
 ```
 
 - `pet.json`: pet metadata
 - `spritesheet.webp`: Codex v2 animation spritesheet
 - `web-spritesheet.png`: ChatGPT web upload asset
-- `previews/`: README animation previews; not required by the pet
+- `previews/chatgpt-web-pet.png`: ChatGPT web appearance preview
+- `previews/`: README preview images; not required by the pet
 
 ## Credits
 

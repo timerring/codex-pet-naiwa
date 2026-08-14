@@ -96,12 +96,15 @@ naifrog/
 ├── spritesheet.webp
 ├── web-spritesheet.png
 └── previews/
+    ├── chatgpt-web-pet.png
+    └── …
 ```
 
 - `pet.json`：桌宠元数据
 - `spritesheet.webp`：Codex v2 动画精灵表
 - `web-spritesheet.png`：ChatGPT Web 端上传素材
-- `previews/`：README 动画预览，不影响桌宠运行
+- `previews/chatgpt-web-pet.png`：ChatGPT Web 端效果预览
+- `previews/`：README 预览图片，不影响桌宠运行
 
 ## Credits / 致谢
 
