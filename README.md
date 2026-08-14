@@ -12,7 +12,9 @@
 
 将下面这句话发送给 Codex：
 
-> 请帮我安装这个 Codex 奶蛙桌宠：<https://github.com/timerring/codex-pet-naiwa>，将 `naifrog` 文件夹复制到我的自定义宠物目录，并告诉我如何刷新和启用它。
+```text
+请帮我安装这个 Codex 奶蛙桌宠：https://github.com/timerring/codex-pet-naiwa，将 naifrog 文件夹复制到我的自定义宠物目录，并告诉我如何刷新和启用它。
+```
 
 ## 动画预览
 
@@ -86,7 +88,9 @@ Web 端请下载 [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png)�
 
 也可将下面的话发送给 Codex 让其帮你上传：
 
-> 请帮我把这个奶蛙设置为 ChatGPT Web 宠物：<https://github.com/timerring/codex-pet-naiwa>。下载仓库中的 `naifrog/web-spritesheet.png`，然后在我已登录的 ChatGPT Web 中进入 **Settings → Personalization → Pet → Upload pet**，完成上传并启用奶蛙，最后告诉我结果。
+```text
+请帮我把这个奶蛙设置为 ChatGPT Web 宠物：https://github.com/timerring/codex-pet-naiwa。下载仓库中的 naifrog/web-spritesheet.png，然后在我已登录的 ChatGPT Web 中进入 Settings → Personalization → Pet → Upload pet，完成上传并启用奶蛙，最后告诉我结果。
+```
 
 ## 文件结构
 
