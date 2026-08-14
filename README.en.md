@@ -79,14 +79,14 @@ Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 > Custom pets are managed separately in the Codex desktop app and ChatGPT web. Nai Frog installed on desktop cannot sync to the web.
 
 <p align="center">
-  <img src="./naifrog/previews/chatgpt-web-pet.png" width="764" alt="Nai Frog in ChatGPT web" />
+  <img src="./naifrog/previews/chatgpt-web-pet.png" width="382" alt="Nai Frog in ChatGPT web" />
 </p>
 
 For ChatGPT web, download [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png), then upload it from **Settings → Personalization → Pet → Upload pet**. This is the required `1536 × 1872` transparent PNG; the desktop `spritesheet.webp` (`1536 × 2288`) cannot be uploaded directly to the web.
 
 #### Ask Codex to Upload It
 
-Send this instruction to Codex:
+Send this instruction to Codex to have it upload the pet for you:
 
 > Set up this Nai Frog as my ChatGPT web pet: <https://github.com/timerring/codex-pet-naiwa>. Download `naifrog/web-spritesheet.png` from the repository, then open **Settings → Personalization → Pet → Upload pet** in my signed-in ChatGPT web session, upload and enable Nai Frog, and tell me when it is complete.
 
