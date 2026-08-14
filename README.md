@@ -84,7 +84,7 @@ Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 
 Web 端请下载 [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png)，然后在 **Settings → Personalization → Pet → Upload pet** 中上传。该文件是 Web 端所需的 `1536 × 1872` 透明 PNG；桌面端使用的 `spritesheet.webp`（`1536 × 2288`）不能直接上传到 Web 端。
 
-也可将下面的话发送给 Codex 让其帮你上传：
+也可让 Codex 直接帮你上传：
 
 > 请帮我把这个奶蛙设置为 ChatGPT Web 宠物：<https://github.com/timerring/codex-pet-naiwa>。下载仓库中的 `naifrog/web-spritesheet.png`，然后在我已登录的 ChatGPT Web 中进入 **Settings → Personalization → Pet → Upload pet**，完成上传并启用奶蛙，最后告诉我结果。
 
