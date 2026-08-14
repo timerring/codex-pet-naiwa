@@ -12,9 +12,7 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 Send this instruction to Codex:
 
-```text
-Install the Nai Frog pet from https://github.com/timerring/codex-pet-naiwa by copying the naifrog folder into my custom pets directory, then tell me how to refresh and enable it in Codex.
-```
+> Install the Nai Frog pet from <https://github.com/timerring/codex-pet-naiwa> by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it in Codex.
 
 ## Animation Preview
 
@@ -88,9 +86,7 @@ For ChatGPT web, download [`naifrog/web-spritesheet.png`](./naifrog/web-spritesh
 
 Alternatively, send the following instruction to Codex to have it upload the pet for you:
 
-```text
-Set up this Nai Frog as my ChatGPT web pet: https://github.com/timerring/codex-pet-naiwa. Download naifrog/web-spritesheet.png from the repository, then open Settings → Personalization → Pet → Upload pet in my signed-in ChatGPT web session, upload and enable Nai Frog, and tell me when it is complete.
-```
+> Set up this Nai Frog as my ChatGPT web pet: <https://github.com/timerring/codex-pet-naiwa>. Download `naifrog/web-spritesheet.png` from the repository, then open **Settings → Personalization → Pet → Upload pet** in my signed-in ChatGPT web session, upload and enable Nai Frog, and tell me when it is complete.
 
 ## Files
 
