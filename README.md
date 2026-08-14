@@ -73,17 +73,26 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
+### 关于 Web 端
+
+> [!NOTE]
+> Codex 桌面端与 ChatGPT Web 端的自定义宠物分开管理；安装到桌面端的奶蛙不会自动同步到 Web 端。
+
+Web 端请下载 [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png)，然后在 **Settings → Personalization → Pet → Upload pet** 中上传。该文件是 Web 端所需的 `1536 × 1872` 透明 PNG；桌面端使用的 `spritesheet.webp`（`1536 × 2288`）不能直接上传到 Web 端。
+
 ## 文件结构
 
 ```text
 naifrog/
 ├── pet.json
 ├── spritesheet.webp
+├── web-spritesheet.png
 └── previews/
 ```
 
 - `pet.json`：桌宠元数据
 - `spritesheet.webp`：Codex v2 动画精灵表
+- `web-spritesheet.png`：ChatGPT Web 端上传素材
 - `previews/`：README 动画预览，不影响桌宠运行
 
 ## Credits / 致谢
