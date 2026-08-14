@@ -34,7 +34,7 @@ Send this instruction to Codex:
   </tr>
 </table>
 
-## Look Directions
+### Look Directions
 
 <p align="center">
   <img src="./naifrog/previews/look-directions.png" width="192" alt="Nai Frog looking in 16 directions" /><br />
@@ -73,18 +73,38 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
+## About ChatGPT Web
+
+> [!NOTE]
+> Custom pets are managed separately in the Codex desktop app and ChatGPT web. Nai Frog installed on desktop cannot sync to the web.
+
+<p align="center">
+  <img src="./naifrog/previews/chatgpt-web-pet.png" width="382" alt="Nai Frog in ChatGPT web" />
+</p>
+
+For ChatGPT web, download [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png), then upload it from **Settings → Personalization → Pet → Upload pet**. This is the required `1536 × 1872` transparent PNG; the desktop `spritesheet.webp` (`1536 × 2288`) cannot be uploaded directly to the web.
+
+Alternatively, send the following instruction to Codex to have it upload the pet for you:
+
+> Set up this Nai Frog as my ChatGPT web pet: <https://github.com/timerring/codex-pet-naiwa>. Download `naifrog/web-spritesheet.png` from the repository, then open **Settings → Personalization → Pet → Upload pet** in my signed-in ChatGPT web session, upload and enable Nai Frog, and tell me when it is complete.
+
 ## Files
 
 ```text
 naifrog/
 ├── pet.json
 ├── spritesheet.webp
+├── web-spritesheet.png
 └── previews/
+    ├── chatgpt-web-pet.png
+    └── …
 ```
 
 - `pet.json`: pet metadata
 - `spritesheet.webp`: Codex v2 animation spritesheet
-- `previews/`: README animation previews; not required by the pet
+- `web-spritesheet.png`: ChatGPT web upload asset
+- `previews/chatgpt-web-pet.png`: ChatGPT web appearance preview
+- `previews/`: README preview images; not required by the pet
 
 ## Credits
 

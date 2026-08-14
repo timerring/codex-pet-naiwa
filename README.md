@@ -34,7 +34,7 @@
   </tr>
 </table>
 
-## 注视方向
+### 注视方向
 
 <p align="center">
   <img src="./naifrog/previews/look-directions.png" width="192" alt="奶蛙的 16 个注视方向" /><br />
@@ -73,18 +73,38 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
+## 关于 Web 端
+
+> [!NOTE]
+> Codex 桌面端与 ChatGPT Web 端的自定义宠物分开管理；安装到桌面端的奶蛙无法同步到 Web 端。
+
+<p align="center">
+  <img src="./naifrog/previews/chatgpt-web-pet.png" width="382" alt="ChatGPT Web 中的奶蛙宠物" />
+</p>
+
+Web 端请下载 [`naifrog/web-spritesheet.png`](./naifrog/web-spritesheet.png)，然后在 **Settings → Personalization → Pet → Upload pet** 中上传。该文件是 Web 端所需的 `1536 × 1872` 透明 PNG；桌面端使用的 `spritesheet.webp`（`1536 × 2288`）不能直接上传到 Web 端。
+
+也可将下面的话发送给 Codex 让其帮你上传：
+
+> 请帮我把这个奶蛙设置为 ChatGPT Web 宠物：<https://github.com/timerring/codex-pet-naiwa>。下载仓库中的 `naifrog/web-spritesheet.png`，然后在我已登录的 ChatGPT Web 中进入 **Settings → Personalization → Pet → Upload pet**，完成上传并启用奶蛙，最后告诉我结果。
+
 ## 文件结构
 
 ```text
 naifrog/
 ├── pet.json
 ├── spritesheet.webp
+├── web-spritesheet.png
 └── previews/
+    ├── chatgpt-web-pet.png
+    └── …
 ```
 
 - `pet.json`：桌宠元数据
 - `spritesheet.webp`：Codex v2 动画精灵表
-- `previews/`：README 动画预览，不影响桌宠运行
+- `web-spritesheet.png`：ChatGPT Web 端上传素材
+- `previews/chatgpt-web-pet.png`：ChatGPT Web 端效果预览
+- `previews/`：README 预览图片，不影响桌宠运行
 
 ## Credits / 致谢
 
