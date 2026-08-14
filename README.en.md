@@ -34,7 +34,7 @@ Send this instruction to Codex:
   </tr>
 </table>
 
-## Look Directions
+### Look Directions
 
 <p align="center">
   <img src="./naifrog/previews/look-directions.png" width="192" alt="Nai Frog looking in 16 directions" /><br />
@@ -73,7 +73,7 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
-### About ChatGPT Web
+## About ChatGPT Web
 
 > [!NOTE]
 > Custom pets are managed separately in the Codex desktop app and ChatGPT web. Nai Frog installed on desktop cannot sync to the web.

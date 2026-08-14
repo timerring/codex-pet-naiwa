@@ -34,7 +34,7 @@
   </tr>
 </table>
 
-## 注视方向
+### 注视方向
 
 <p align="center">
   <img src="./naifrog/previews/look-directions.png" width="192" alt="奶蛙的 16 个注视方向" /><br />
@@ -73,7 +73,7 @@ New-Item -ItemType Directory -Force $petDir | Out-Null
 Copy-Item ".\codex-pet-naiwa\naifrog\*" $petDir -Recurse -Force
 ```
 
-### 关于 Web 端
+## 关于 Web 端
 
 > [!NOTE]
 > Codex 桌面端与 ChatGPT Web 端的自定义宠物分开管理；安装到桌面端的奶蛙无法同步到 Web 端。
