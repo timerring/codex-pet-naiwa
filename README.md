@@ -8,6 +8,8 @@
 
 </div>
 
+<div align="center">
+
 ## 支持的 Coding Agents
 
 通过 Petdex，可在以下 coding agents 中使用奶蛙：
@@ -28,6 +30,8 @@
     <td align="center" width="20%"><img src="https://api.iconify.design/simple-icons:deepseek.svg?color=%234D6BFE" width="40" height="40" alt="DeepSeek Harness" /><br /><sub><strong>DeepSeek Harness</strong></sub></td>
   </tr>
 </table>
+
+</div>
 
 ## 快速安装
 

@@ -8,6 +8,8 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 </div>
 
+<div align="center">
+
 ## Supported Coding Agents
 
 Use Nai Frog with the following coding agents through Petdex:
@@ -28,6 +30,8 @@ Use Nai Frog with the following coding agents through Petdex:
     <td align="center" width="20%"><img src="https://api.iconify.design/simple-icons:deepseek.svg?color=%234D6BFE" width="40" height="40" alt="DeepSeek Harness" /><br /><sub><strong>DeepSeek Harness</strong></sub></td>
   </tr>
 </table>
+
+</div>
 
 ## Quick Install
 
