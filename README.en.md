@@ -8,11 +8,32 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 </div>
 
+## Supported Coding Agents
+
+Use Nai Frog with the following coding agents through Petdex:
+
+<table>
+  <tr>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/claude-code.png" width="40" height="40" alt="Claude Code" /><br /><sub><strong>Claude Code</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/codex.png" width="40" height="40" alt="Codex" /><br /><sub><strong>Codex</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/gemini.png" width="40" height="40" alt="Gemini CLI" /><br /><sub><strong>Gemini CLI</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/opencode-light.png" width="40" height="40" alt="OpenCode" /><br /><sub><strong>OpenCode</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/qoder.png" width="40" height="40" alt="Qoder" /><br /><sub><strong>Qoder</strong></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/kimi-code.png" width="40" height="40" alt="Kimi Code" /><br /><sub><strong>Kimi Code</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/codebuddy.png" width="40" height="40" alt="CodeBuddy" /><br /><sub><strong>CodeBuddy</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/omp.png" width="40" height="40" alt="OMP" /><br /><sub><strong>OMP</strong></sub></td>
+    <td align="center" width="20%"><img src="https://cdn.jsdelivr.net/gh/crafter-station/petdex@5d1844be151bb4e613b62b2e50a70bc8e1540d65/packages/petdex-desktop-native/src/assets/agents/hermes.png" width="40" height="40" alt="Hermes" /><br /><sub><strong>Hermes</strong></sub></td>
+    <td align="center" width="20%"><img src="https://api.iconify.design/simple-icons:deepseek.svg?color=%234D6BFE" width="40" height="40" alt="DeepSeek Harness" /><br /><sub><strong>DeepSeek Harness</strong></sub></td>
+  </tr>
+</table>
+
 ## Quick Install
 
-Send this instruction to Codex:
+Send this instruction:
 
-> Install the Nai Frog pet from <https://github.com/timerring/codex-pet-naiwa> by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it in Codex.
+> Install the Nai Frog pet from <https://github.com/timerring/codex-pet-naiwa> by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it.
 
 ## Animation Preview
 
