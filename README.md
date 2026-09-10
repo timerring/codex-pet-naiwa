@@ -37,7 +37,7 @@
 
 发送下面这句话：
 
-> 请帮我安装这个奶蛙桌宠：https://petdex.dev/pets/nailong-7，并根据当前开发工具自动完成安装和启用。
+> 请帮我安装这个奶蛙桌宠：https://petdex.dev/pets/nailong-7 ，并根据当前开发工具自动完成安装和启用。
 
 <div align="center">
 
