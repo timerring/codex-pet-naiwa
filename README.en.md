@@ -8,7 +8,7 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 </div>
 
-## Supported Coding Agents
+## Quick Install
 
 <div align="center">
 
@@ -32,8 +32,6 @@ Use the Nai Frog desktop pet with the following coding agents through Petdex:
 </table>
 
 </div>
-
-## Quick Install
 
 Send this instruction to your development tool:
 

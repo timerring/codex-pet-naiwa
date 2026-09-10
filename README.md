@@ -8,7 +8,7 @@
 
 </div>
 
-## 支持的 Coding Agents
+## 快速安装
 
 <div align="center">
 
@@ -32,8 +32,6 @@
 </table>
 
 </div>
-
-## 快速安装
 
 对你的开发工具发送这句话：
 
