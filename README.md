@@ -8,9 +8,9 @@
 
 </div>
 
-<div align="center">
-
 ## 支持的 Coding Agents
+
+<div align="center">
 
 通过 Petdex，可在以下 coding agents 中使用奶蛙：
 

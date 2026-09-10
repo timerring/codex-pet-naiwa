@@ -8,9 +8,9 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 </div>
 
-<div align="center">
-
 ## Supported Coding Agents
+
+<div align="center">
 
 Use Nai Frog with the following coding agents through Petdex:
 
