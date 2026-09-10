@@ -37,7 +37,7 @@ Use Nai Frog with the following coding agents through Petdex:
 
 Send this instruction:
 
-> Install the Nai Frog pet from <https://github.com/timerring/codex-pet-naiwa> by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it.
+> Please install this Nai Frog desktop pet: https://petdex.dev/pets/nailong-7, and automatically install and enable it for my current development tool.
 
 <div align="center">
 

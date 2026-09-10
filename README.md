@@ -37,7 +37,7 @@
 
 发送下面这句话：
 
-> 请帮我安装这个奶蛙桌宠：<https://github.com/timerring/codex-pet-naiwa>，将 `naifrog` 文件夹复制到我的自定义宠物目录，并告诉我如何刷新和启用它。
+> 请帮我安装这个奶蛙桌宠：https://petdex.dev/pets/nailong-7，并根据当前开发工具自动完成安装和启用。
 
 <div align="center">
 
