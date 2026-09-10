@@ -12,7 +12,7 @@
 
 <div align="center">
 
-通过 Petdex，可在以下 coding agents 中使用奶蛙桌宠：
+通过 Petdex，现已支持在以下 coding agents 中使用奶蛙桌宠：
 
 <table>
   <tr>
