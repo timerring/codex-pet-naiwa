@@ -39,6 +39,8 @@
 
 > 请帮我安装这个奶蛙桌宠：<https://github.com/timerring/codex-pet-naiwa>，将 `naifrog` 文件夹复制到我的自定义宠物目录，并告诉我如何刷新和启用它。
 
+<div align="center">
+
 ## 动画预览
 
 <table>
@@ -65,6 +67,8 @@
   <img src="./naifrog/previews/look-directions.png" width="192" alt="奶蛙的 16 个注视方向" /><br />
   <code>look directions</code> · 16 个方向
 </p>
+
+</div>
 
 ## 手动安装
 

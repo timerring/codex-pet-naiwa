@@ -39,6 +39,8 @@ Send this instruction:
 
 > Install the Nai Frog pet from <https://github.com/timerring/codex-pet-naiwa> by copying the `naifrog` folder into my custom pets directory, then tell me how to refresh and enable it.
 
+<div align="center">
+
 ## Animation Preview
 
 <table>
@@ -65,6 +67,8 @@ Send this instruction:
   <img src="./naifrog/previews/look-directions.png" width="192" alt="Nai Frog looking in 16 directions" /><br />
   <code>look directions</code> · 16 directions
 </p>
+
+</div>
 
 ## Manual Installation
 
