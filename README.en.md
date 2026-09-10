@@ -12,7 +12,7 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 <div align="center">
 
-Use Nai Frog with the following coding agents through Petdex:
+Use the Nai Frog desktop pet with the following coding agents through Petdex:
 
 <table>
   <tr>
