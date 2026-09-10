@@ -39,9 +39,9 @@
 请帮我安装这个奶蛙桌宠：https://petdex.dev/pets/nailong-7，并根据当前开发工具自动完成安装和启用。
 ```
 
-<div align="center">
-
 ## 动画预览
+
+<div align="center">
 
 <table>
   <tr>
