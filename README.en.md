@@ -37,7 +37,9 @@ Use Nai Frog with the following coding agents through Petdex:
 
 Send this instruction:
 
-> Please install this Nai Frog desktop pet: https://petdex.dev/pets/nailong-7 , and automatically install and enable it for my current development tool.
+```
+Please install this Nai Frog desktop pet: https://petdex.dev/pets/nailong-7, and automatically install and enable it for my current development tool.
+```
 
 <div align="center">
 
