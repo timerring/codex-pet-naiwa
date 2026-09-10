@@ -10,9 +10,10 @@ A custom Nai Frog / Naiwa Pet for the [Codex App](https://openai.com/index/intro
 
 ## Quick Install
 
-<div align="center">
+> [!NOTE]
+> Through Petdex, the Nai Frog desktop pet can now be used with the following coding agents:
 
-Through Petdex, the Nai Frog desktop pet can now be used with the following coding agents:
+<div align="center">
 
 <table>
   <tr>
